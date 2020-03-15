@@ -8,10 +8,6 @@ class Song
   attr_reader :artist
 
   @@songs = []
-
- # def initialize
- #   @@songs << self
-  #end
   
   def initialize
     self.class.all << self
